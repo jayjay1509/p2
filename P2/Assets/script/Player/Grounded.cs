@@ -11,10 +11,9 @@ public class Grounded : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag( "ground"))
+        if (other.gameObject.CompareTag("ground"))
         {
             jump_ok = true;
-            Debug.Log("je touche ");
         }
         
     }
@@ -24,7 +23,7 @@ public class Grounded : MonoBehaviour
         if (other.gameObject.CompareTag("ground"))
         {
             jump_ok = false;
-            Debug.Log("je touche pas");
+            
         }
     }
     void Start()
