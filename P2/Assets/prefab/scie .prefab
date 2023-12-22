@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6133317915050082081}
   m_Layer: 0
   m_Name: collider L
-  m_TagString: Untagged
+  m_TagString: ennemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68,7 +68,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.46230316, y: 0.057483673}
+  m_Offset: {x: 0.4374547, y: 0.006234646}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -78,7 +78,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.07539368, y: 0.7470722}
+  m_Size: {x: 0.1250906, y: 0.8495703}
   m_EdgeRadius: 0
 --- !u!114 &6133317915050082081
 MonoBehaviour:
@@ -122,7 +122,7 @@ Transform:
   m_GameObject: {fileID: 2441983091779350440}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.54, y: -8.78, z: 0}
+  m_LocalPosition: {x: -7, y: -8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -282,7 +282,7 @@ GameObject:
   - component: {fileID: 2456783274955842593}
   m_Layer: 0
   m_Name: collider R
-  m_TagString: Untagged
+  m_TagString: ennemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -336,7 +336,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.46230316, y: 0.009580135}
+  m_Offset: {x: -0.42813706, y: -0.06807041}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -346,7 +346,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.07539368, y: 0.7432394}
+  m_Size: {x: 0.14372587, y: 0.8985405}
   m_EdgeRadius: 0
 --- !u!114 &2456783274955842593
 MonoBehaviour:
